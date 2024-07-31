@@ -1,6 +1,6 @@
 export const Loader = () => {
     return (
-        <div class="lds-grid">
+        <div className="lds-grid">
             <div></div>
             <div></div>
             <div></div>

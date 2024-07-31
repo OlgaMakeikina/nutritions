@@ -7,7 +7,7 @@ import video  from "./food.mp4";
 import './App.css';
 function App() {
 
-  const [mySearch, setMySearch] = useState();
+  const [mySearch, setMySearch] = useState('');
   const [wordSubmitted, setWordSubmitted] = useState('');
   const [myNutrition, setMyNutrition] = useState([]);
   const [stateLoader, setStateLoader] = useState(false);
